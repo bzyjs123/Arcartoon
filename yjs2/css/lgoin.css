@@ -1,0 +1,74 @@
+body{
+    min-height: 100%;
+    position: relative;
+    padding: 0 0;
+}
+#login-box{
+    /* width: 30%;
+    height: 300px; */
+    left: 500px;
+    margin:0 auto;
+    margin-top: 15%;
+    text-align: center;
+    padding: 120px 50px;
+    border-radius: 10px;
+}
+
+#login-box .login-dl span{
+    margin-bottom: 20%;
+}
+
+#login-box .form .item{
+    margin-top: 30px;
+}
+
+#login-box .form .item i{
+    font-size: 15px;
+}
+
+#login-box .form .item input{
+    width: 180px;
+    font-size: 15px;
+    border: 0;
+    /* border-bottom: 2px solid #fff; */
+    padding: 5px 10px;
+    background: none;
+    outline: none;
+}
+
+#login-box .form .item input:focus{
+    border-bottom: 2px solid #FFE4C4;
+}
+#login-box .form .item input::-webkit-input-placeholder{
+}
+input.al{
+    position: relative;
+    margin-top: 40px;
+}
+
+input.al{
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    /* color: #fff; */
+
+    cursor:pointer;       /* 鼠标指针变手指*/
+    transition:.5s;
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    border: 0;
+    border-radius: 12px;
+    outline: none;
+}
+
+input.al:hover{
+    background-position: right;
+}
+
+body h3{
+    font-size: 15px;
+    /* color: white; */
+    text-align: center;
+    margin-top:300px;
+}

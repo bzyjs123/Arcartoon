@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ar动漫</title>
+    <script src="../jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="../js/login.js"></script>
+    <link rel="stylesheet" href="../css/Arlogin.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.staticfile.org/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <div id="login-app">
+        <div class="login-app bottom-filling">
+            <div class="top-banner">
+                <img src="../image/rl_top.35edfde.png">
+            </div>
+            <div data-v-2c844fd9="">
+            <div class="title-line">
+                <span class="tit" style="font-size: 38px;">登录</span>
+            </div>
+            <div class="login-box clearfix">
+            <div id="login-left"> 
+                <div class="qrcode-login">
+                    <div class="qrcode-con">
+                        <i class="tv-icon"></i>
+                    <div class="qrcode-box">
+                        <div class="qrcode-img">
+                            <img src="../image/qrcode.png" height="140" width="140">
+                        </div>
+                    </div>
+                </div>
+                    <div class="qrcode-footer">
+                        <p class="status-txt">扫描二维码登录</p>
+                        <!--  -->
+                        <!--  -->
+                        <p class="app-link">
+                            请使用
+                            <a href="https://app.bilibili.com/" target="_blank">Ar动漫客户端</a>
+                            <br>
+                            扫码登录
+                            <br>
+                            或扫码下载APP
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div id="login-right">
+                <div class="form-top">
+                <div id="gettest" class="input-box">
+                    <div>
+                        <div class="type-tab">
+                            <span id="Password-login" class="active">密码登录</span>
+                            <span id="text-login">短信登录</span>
+                        </div>
+                        <div class="father">
+                            <div class="main selected">
+                            <div class="item username status-box">
+                                <input type="text" placeholder="你的手机号/邮箱" id="login-username" class="">
+                                <span class="status"></span>
+                                <div class="text clearfix" id="login-fix">
+                                    <p id="usemsg" class="tips">请输入注册时用的邮箱或者手机号呀</p>
+                                </div>
+                            </div>
+                            <div class="item password status-box">
+                            <input type="password" placeholder="密码" id="login-passwd" class="">
+                            <span class="status"></span>  <!-- 这是一个提示图标-->
+                            <div class="text clearfix">
+                                <p id="pasmsg" class="tips">喵，你没输入密码么？</p>
+                                <p id="upmsg" class="tips">账号或密码错误</p>
+                                <!-- 密码提示语句-->
+                            </div>
+                            </div>
+                            <!-- 密码登录 -->
+                            <div class="item gc clearfix">
+                                <!--  -->
+                            </div>
+                            </div>
+                            <div class="main">
+                                <!-- 短信登录 -->
+                                <div id="dxdl_login-tel" class="form-group status-box">
+                                    <div class="input-with-select input-width el-input el-input-group el-input-group--prepend">
+                                        <div class="el-input-group_prepend">
+                                            <!--  -->
+                                            <!--  -->
+                                            <input class="el-input_inner" type="text" placeholder="填写常用手机号" autocomplete="off" name="tel" maxlength="16">
+                                            <!--  -->
+                                            <!--  -->
+                                            <!--  -->
+                                            <!--  -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text clearfix"></div>
+                                <div class="form-group status-box">
+                                    <div class="code-input input-width el-input">
+                                            <input type="text" placeholder="请输入验证码" autocomplete="off" maxlength="8" class="el-input_inner" name="" id="">
+                                    </div>
+                                    <button class="el-button captcha-buttom el-button--primary" type="button">
+                                        <!--  -->
+                                        <!--  -->
+                                        <span>获取验证码</span>
+                                    </button>
+                                </div>
+                                <div class="text clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="remember">
+                            <div class="remember-tool">
+                                <label>
+                                    <label data-v-5641f300 class="remember-check checkbox-bwxr">
+                                        <input type="checkbox">
+                                    </label>
+                                    记住我
+                                    <span>不是自己的电脑上不要勾选此项</span>
+                                </label>
+                                <div>
+                                    <a href="#" class="forget-password">忘记密码？</a>
+                                    <a href="#" class="not-checkout">无法验证？</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <a class="btn btn-login" id="Login">登录</a>
+                            <a href="../login/Aregister.html" class="btn btn-reg">注册</a>
+                        </div>
+                        <div class="sns">
+                            <!-- <img src="../image/weibo.png" class="btn weibotb">
+                            <a class="btn weibo" href="https://api.weibo.com/oauth2/authorize?client_id=2841902482&redirect_uri=https%3A%2F%2Fpassport.bilibili.com%2Flogin%2Fsnsback%3Fsns%3Dweibo%26state%3D9637b750b50111ea86aafaaffb596858&scope=email">微博账号登录</a>
+                            <a class="btn qq" href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&state=authorize&client_id=101135748&redirect_uri=https%3A%2F%2Fpassport.bilibili.com%2Flogin%2Fsnsback%3Fsns%3Dqq%26%26state%3D8b842730b50111ea901fda7fb57f7aae&scope=do_like,get_user_info,get_simple_userinfo,get_vip_info,get_vip_rich_info,add_one_blog,list_album,upload_pic,add_album,list_photo,get_info,add_t,del_t,add_pic_t,get_repost_list,get_other_info,get_fanslist,get_idollist,add_idol,del_idol,get_tenpay_addr">QQ账号登录</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <p data-v-2c844fd9="">
+                登录即代表你同意
+                <a data-v-2c844fd9="" target="_blank" href="https://www.bilibili.com/protocal/licence.html">
+                    用户协议</a>
+                    和
+                <a data-v-2c844fd9="" target="_blank" href="https://www.bilibili.com/blackboard/privacy-pc.html">
+                    隐私政策
+                </a>
+            </p>
+            </div>
+            <div class="footer ar-footer" data-v-2c844fd9="">
+                <div class="footer-wrp">
+                    <div class="footer-cnt clearfix report-wrap-module">
+                        <ul class="boston-postcards">
+                            <li class="li1">
+                                <div class="tips">Ar动漫</div>
+                                <div class="cards"><a href="">关于我们</a></div>
+                                <div class="cards"><a href="">联系我们</a></div>
+                                <div class="cards"><a href="">加入我们</a></div>
+                                <div class="cards"><a href="">友情链接</a></div>
+                                <div class="cards"><a href="">Ar动漫认证</a></div>
+                                <div class="cards"><a href="">Investor Relations</a></div>
+
+                            </li>
+                            <li class="li2">
+                                <div class="tips">传送门</div>
+                                <div class="cards"><a href="">帮助中心</a></div>
+                                <div class="cards"><a href="">高级弹幕</a></div>
+                                <div class="cards"><a href="">活动专题页</a></div>
+                                <div class="cards"><a href="">侵权申诉</a></div>
+                                <div class="cards"><a href="">活动中心</a></div>
+                                <div class="cards"><a href="">用户反馈论坛</a></div>
+                                <div class="cards"><a href="">壁纸站</a></div>
+                                <div class="cards"><a href="">名人堂</a></div>
+                                <div class="cards"><a href="">专车号服务中心</a></div>
+                        
+                            </li>
+                            <li class="li3">
+                                <div class="block right">
+                                    <a target="_blank" href="https://app.bilibili.com">
+                                        <div class="phone">
+                                            <div id="footer-mobile-app" class="pic">
+
+                                            </div>
+                                            <em>客户端下载</em>
+                                        </div>
+                                    </a>
+                                    <a target="_blank" href="https://weibo.com/bilibiliweb">
+                                        <div class="weibo">
+                                            <div class="pic">
+
+                                            </div>
+                                            <em>新浪微博</em>
+                                        </div>
+                                    </a>
+                                    <a target="_blank" href="https://weixin.qq.com/">
+                                        <div class="weixin">
+                                            <div class="pic">
+
+                                            </div>
+                                            <em>官方微信</em>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                        <div class="partner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>

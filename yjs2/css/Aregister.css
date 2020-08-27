@@ -1,0 +1,449 @@
+@import"../css/common.css";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottom-filling:after{
+    height: 387px;
+    display: block;
+    content: "";
+}
+
+.bottom-filling .top-banner{
+    background: #00a0d8;
+    height: 86px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bottom-filling .title-line{
+        width: 980px;
+        height: 28px;
+        border-bottom: 1px solid #ddd;
+        margin: 0 auto 28px;
+        text-align: center;
+}
+
+.bottom-filling .title-line .tit{
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 40px;
+    background: #fff;
+    text-align: center;
+}
+
+.register-container[data-v-89436cbc]{
+    width: 980px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.form-group[data-v-89436cbc]{
+    width: 420px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+}
+
+.el-input{
+    position: relative;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+}
+
+.el-input .el-input_inner::placeholder{
+    color: #c0c4cc;
+}
+
+.el-input_inner{
+    width: 100%;
+    padding: 0 15px;
+    outline: 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: inherit;
+    display: inline-block;
+    border: 1px solid #dcdfe6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #606266;
+    background-color: #fff;
+    background-image: none;
+}
+
+#app .el-input_inner:hover{
+        border-color: #ccc;
+}
+
+#app .el-input_inner:hover .el-input_inner{
+    border-color: #ccc;
+}
+
+#app .el-input-group_prepend div.el-select:hover .el-input_inner {
+    background-color: rgba(0,0,0,0);
+}
+#app .el-input_inner:focus{
+    border-color: #00a1d6;
+    outline: 0;
+}
+
+.register-hidden-gruop[data-v-89436cbc]{
+    width: 420px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.register-hidden-gruop.text-right[data-v-89436cbc]{
+    line-height: 40px;
+    text-align: right;
+}
+
+.register-hidden-gruop.text-right a[data-v-89436cbc]{
+    font-size: 12px;
+}
+
+.el-input-group_append, .el-input-group_prepend{
+    background-color: #f5f7fa;
+    color: #909399;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    border: 1px solid #dcdfe6;
+    border-right-color: rgb(220, 223, 230);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 0 20px;
+    width: 1px;
+    white-space: nowrap;
+}
+
+.el-input-group{
+    line-height: normal;
+    display: inline-table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+
+#app .input-with-select .el-input-group_prepend{
+    background-color: #fff;
+}
+
+.el-select{
+    display: inline-block;
+    position: relative;
+}
+
+.el-select > .el-input{
+    display: block;
+}
+
+.el-input-group_prepend{
+    border-right: 0px;
+}
+
+.el-input-group_append .el-button,
+.el-input-group_append .el-select, 
+.el-input-group_prepend .el-button,
+.el-input-group_prepend .el-select{
+    display: inline-block;
+    margin: -10px -20px;
+}
+
+.el-input-group_append .el-button,
+.el-input-group_append .el-input,
+.el-input-group_prepend .el-button,
+.el-input-group_prepend .el-input{
+    font-size: inherit;
+}
+
+#app .input-with-select .el-select > .el-input{
+    width: 130px;
+}
+
+
+.el-input-group_prepend .el-select .el-input_inner{
+    cursor: pointer;
+}
+
+.el-input_prefix, .el-input_suffix{
+    position:absolute;
+}
+
+.el-input_suffix{
+    right: 14px;
+    top: 14px;
+    transition: all .3s;
+    pointer-events: none;
+}
+
+#app .el-input-group-append .el-select .el-input.is-focus .el-input_inner,
+#app .el-input-group-prepend .el-select .el-input.is-focus .el-input_inner,
+#app .el-input-group_append button.el-button,
+#app .el-input-group_append div.el-select .el-input_inner,
+#app .el-input-group_append div.el-select:hover .el-input_inner,
+#app .el-input-group_prepend button.el-button,
+#app .el-input-group_prepend div.el-select .el-input_inner,
+#app .el-input-group_prepend div.el-select:hover .el-input_inner {
+
+    border-color: rgba(0,0,0,0);
+}
+
+.el-input-group_append button.el-button,
+.el-input-group_append div.el-select .el-input_inner,
+.el-input-group_append div.el-select:hover .el-input_inner,
+.el-input-group_prepend button.el-button,
+.el-input-group_prepend div.el-select .el-input_inner,
+.el-input-group_prepend div.el-select:hover .el-input_inner {
+    border-color:rgba(0,0,0,0);
+    background-color:rgba(0,0,0,0);
+    color:inherit;
+    border-top:0;
+    border-bottom:0
+}
+
+.el-input-group_prepend{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.el-input-group--prepend .el-input_inner, .el-input-group__append{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#app .el-button--primary{
+    color: #fff;
+    background-color: #00a1d6;
+    border-color: #00a1d6;
+}
+
+.yzm-buttom[data-v-89436cbc]{
+    width: 130px;
+    height: 36px;
+    position: absolute;
+    right: 1px;
+    top: 2px;
+    padding: 0 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.el-button{
+    display: inline-block;
+    line-height: 1px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    transition: .3s;
+    font-weight: 500;
+    -webkit-user-select: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.register-agree[data-v-89436cbc]{
+    font-size: 12px;
+    display: block;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.register-agree .check-box[data-v-89436cbc]{
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.checkbox-bwxr input{
+    cursor: pointer;
+}
+
+.btn-full[data-v-89436cbc]{
+    width: 100%;
+    height: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #00a1d6;
+}
+
+.bottom-filling{
+    position: relative;
+}
+
+#app .el-button--primary:hover{
+    background: #33b4de;
+    border-color: #33b4de;
+}
+
+.footer.ar-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.ar-footer {
+    width: 100%;
+    padding-top: 20px;
+    color: #99a2aa;
+    text-align: center;
+    font-size: 12px;
+}
+
+.ar-footer .footer-wrp{
+    background-color: #f6f9fa;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.ar-footer .clearfix::after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    font-size: 0;
+}
+
+.ar-footer .footer-cnt{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.ar-footer .boston-postcards li{
+    float: left;
+    text-align: left;
+    list-style: none;
+    width: 300px;
+    height: 112px;
+    padding-right: 25px;
+    padding-left: 24px;
+    line-height: 1;
+    border-left: solid 1px #e5e9ef;
+    font-size: 14px;
+}
+
+.ar-footer .boston-postcards .li1{
+    width: 360px;
+    padding-left: 39px;
+    padding-right: 40px;
+}
+
+.ar-footer .boston-postcards .li2{
+    width: 360px;
+    padding-left: 39px;
+    padding-right: 40px;
+}
+
+.ar-footer .boston-postcards .li3{
+    width: 360px;
+    padding-left: 39px;
+    padding-right: 40px;
+}
+
+.ar-footer .boston-postcards li .cards{
+    float: left;
+    width: 120px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.ar-footer .boston-postcards {
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.ar-footer .boston-postcards li:first-child {
+    border-left: 0;
+    padding-left: 0 !important;
+}
+
+.ar-footer .boston-postcards li .tips{
+    margin-bottom: 22px;
+}
+
+.ar-footer a{
+    color: #222;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.ar-footer a:hover{
+    color: #00a1d6;
+}
+
+.ar-footer .boston-postcards li:last-child{
+    width: 280px;
+    padding-right: 0;
+}
+
+.ar-footer .block.right{
+    position: relative;
+    width: 100%;
+}
+
+.ar-footer .right{
+    float: right;
+}
+
+.ar-footer .block.right em{
+    position: absolute;
+    width: 82px;
+    line-height: 14px;
+    float: left;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ar-footer .block.right div{
+    position: relative;
+    width: 82px;
+    height: 80px;
+    float: left;
+}
+.ar-footer .block.right .pic{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin-left: 11px;
+}
+.ar-footer .block.right .phone .pic{
+    background: url("../image/footertb.png") no-repeat -1024px -194px;
+}
+
+.ar-footer .block.right .weibo .pic{
+    background: url("../image/footertb.png") no-repeat -1024px -322px;
+}
+
+.ar-footer .block.right .weixin .pic{
+    background: url("../image/footertb.png") no-repeat -1024px -66px;
+}
+
+.bottom-filling::after{
+    height: 387px;
+    display: block;
+    content: "";
+}
